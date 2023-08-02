@@ -1,0 +1,29 @@
+{
+  "paths": {
+    "/api/v1/restaurants/get-all-restaurants": {
+      "get": {
+        "tags": ["Restaurants"],
+        "summary": "Get all restaurants",
+        "operationId": "getAllRestaurants",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/restaurants/get-nearby-restaurants": {
+      "get": {
+        "tags": ["Restaurants"],
+        "summary": "Get all near by restaurants",
+        "operationId": "getNearByRestaurants",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}
+

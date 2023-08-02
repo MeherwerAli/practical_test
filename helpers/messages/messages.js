@@ -1,0 +1,105 @@
+module.exports.commonMessages = {
+  notFoundEn: 'Not found',
+  internalServerErrorEn: 'Internal server error',
+  alreadyExistsEn: 'Already exists',
+};
+
+module.exports.usersMessages = {
+  emailNotFoundEn: 'Please add a valid email',
+  passwordNotFoundEn: 'Please enter a password',
+  phoneNumberNotFoundEn: 'Please add a phone number',
+  roleNotFoundEn: 'Role not found',
+  uniqueValidatorEn: 'An account exists with the same user details',
+};
+
+module.exports.authMessages = {
+  userFoundEn: 'There is a user with the same email',
+  userNotFoundEn: 'User was not found',
+  verificationEmailSubject: 'Email Verification',
+  passwordNotValidEn: 'Please add a valid password',
+  emailNotValidEn: 'Please add a valid email',
+  confirmPasswordEn: "Passwords doesn't match",
+  phoneNumberNotValidEn: 'Please add a valid phone number',
+  passwordLengthEn: 'Password must be between 8 and 50 characters',
+  roleNotValidEn: 'Authorization error role is invalid',
+  credentialProblemEn: 'Wrong email or password',
+  otpExpiryEn: 'Please verify your account first',
+  otpNotFoundEn: 'Otp was not found',
+  wrongPasswordOrEmailEn: 'Wrong email or password',
+  emailCouldNotBeSent: 'Email could not be sent',
+  invalidToken: 'Invalid token',
+  loggedInSuccessfully: 'Logged in successfully',
+  otpVerificationEn:
+    'There was a problem check your account to see if it was verified',
+  otpCreationProblemEn:
+    'There was a problem creating your verification code, please contact our support team',
+  loginEn: 'Please login first',
+  notAuthorizedEn: 'You are not authorized to access',
+  logoutSuccessfullyEn: 'Logged out successfully',
+  userUpdatedSuccessfullyEn: 'User updated successfully',
+  emailSentSuccessfullyEn: 'Email sent successfully',
+  emailNotSentEn: 'Email sent successfully',
+};
+
+module.exports.genericMessages = {
+  serverErrorEn: 'Something went wrong, please try again later',
+  notFoundEn: 'Not found',
+  successEn: 'Success',
+  emailCouldNotBeSent: 'Email could not be sent',
+  emailContentEmpty: 'Email content is empty',
+};
+
+module.exports.restaurantsMessages = {
+  notFound: 'Restaurant not found',
+  alreadyExists: 'Restaurant already exists',
+  createdSuccessfully: 'Restaurant created successfully',
+  updatedSuccessfully: 'Restaurant updated successfully',
+  deletedSuccessfully: 'Restaurant deleted successfully',
+  notDeleted: 'Restaurant not deleted',
+  notUpdated: 'Restaurant not updated',
+  notCreated: 'Restaurant not created',
+  notFoundEn: 'Restaurant not found',
+  alreadyExistsEn: 'Restaurant already exists',
+  createdSuccessfullyEn: 'Restaurant created successfully',
+  updatedSuccessfullyEn: 'Restaurant updated successfully',
+  deletedSuccessfullyEn: 'Restaurant deleted successfully',
+  notDeletedEn: 'Restaurant not deleted',
+  notUpdatedEn: 'Restaurant not updated',
+  notCreatedEn: 'Restaurant not created',
+  invalidInput: 'Invalid input',
+  invalidCredentials: 'Invalid credentials',
+  accessDenied: 'Access denied',
+  serverError: 'Server error',
+  invalidInputEn: 'Invalid input',
+  invalidCredentialsEn: 'Invalid credentials',
+  accessDeniedEn: 'Access denied',
+  serverErrorEn: 'Server error',
+};
+
+module.exports.userMessages = {
+  notFound: 'User not found',
+  alreadyExists: 'User already exists',
+  createdSuccessfully: 'User created successfully',
+  updatedSuccessfully: 'User updated successfully',
+  deletedSuccessfully: 'User deleted successfully',
+  notDeleted: 'User not deleted',
+  notUpdated: 'User not updated',
+  notCreated: 'User not created',
+  notFoundEn: 'User not found',
+  alreadyExistsEn: 'User already exists',
+  createdSuccessfullyEn: 'User created successfully',
+  updatedSuccessfullyEn: 'User updated successfully',
+  deletedSuccessfullyEn: 'User deleted successfully',
+  notDeletedEn: 'User not deleted',
+  notUpdatedEn: 'User not updated',
+  notCreatedEn: 'User not created',
+  invalidInput: 'Invalid input',
+  invalidCredentials: 'Invalid credentials',
+  accessDenied: 'Access denied',
+  serverError: 'Server error',
+  invalidInputEn: 'Invalid input',
+  invalidCredentialsEn: 'Invalid credentials',
+  accessDeniedEn: 'Access denied',
+  serverErrorEn: 'Server error',
+};
+
